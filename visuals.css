@@ -1,6 +1,119 @@
+* {
+    background-color: teal;
+
+}
 
 .head {
-    margin-right: 200px;
-    margin-top: 100px;
+    text-align: center;
+    }
+    
+    .nav1 {
+        background-color: white;
+        text-decoration: wavy;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 0px solid blue;
+    
+    }
+    
+    .nav1:hover {
+        background-color: black;
+    }
+    
+    .nav1::after {
+        border: 5px solid white;
+    }
+    
+    .nav2 {
         background-color: red;
-}
+        text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border: 0px;
+        }
+        
+        .nav2:hover {
+            background-color: black;
+        }
+        
+        .nav3 {
+            background-color: aquamarine;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border: 0px;
+        
+        }
+        
+        .nav4 {
+            background-color: rgb(152, 32, 185);
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border: 0px;
+        }
+        
+        .nav5 {
+            background-color: rgb(225, 144, 5);
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border: 0px;
+        }
+        
+        #parallelogram {
+            width: 150px;
+            height: 100px;
+            transform: skew(20deg);
+            background: red;
+        }
+        
+        #rectangle {
+            width: 150px;
+            height: 1500px;
+            transform: skew(-60deg);
+            background: rgba(252, 201, 23, 0.8);
+            left: -600px;
+            top: 882.77px;
+            position: absolute;
+        }
+        
+        #rectangle-hover {
+            background-color: blue;
+        }
+        
+        
+        #big-rec {
+            width: 2400px;
+            height: 3000px;
+            transform: skew(-75deg);
+            background: rgba(252, 201, 23, 0.8);
+            left: 2000px;
+            top: 730.77px;
+            position: absolute;
+        }
+        
+        #header-subbar {
+            height: 8px;
+            width: 100%;
+            background-color: #FCC917;
+        }
+        
+        #profile-trifoot {
+            width: 90%;
+            height: 10px;
+            border-bottom: 110px solid red;
+            border-left: 400px solid transparent;
+            position: absolute;
+        
