@@ -4,74 +4,105 @@
 }
 
 .head {
-    text-align: center;
+    background-color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
     }
     
     .nav1 {
-        background-color: white;
+        text-align: center;
+            background-color: black;
         text-decoration: wavy;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 20px;
         padding-bottom: 20px;
-        border: 0px solid blue;
-    
+        border: solid 3px white;
+            color: white;
     }
     
     .nav1:hover {
-        background-color: black;
+        background-color: white;
+            border: solid 3px black;
+            color: black;
     }
     
-    .nav1::after {
-        border: 5px solid white;
-    }
-    
+
     .nav2 {
-        background-color: red;
         text-align: center;
-            padding-top: 20px;
+            background-color: black;
+            color: white;
+        text-align: center;
+        padding-top: 20px;
             padding-bottom: 20px;
             margin-top: 0px;
             margin-bottom: 0px;
-            border: 0px;
+        border: solid 3px white;
         }
         
         .nav2:hover {
-            background-color: black;
+            background-color: white;
+                border: solid 3px black;
+                color: black;
         }
         
         .nav3 {
-            background-color: aquamarine;
+        text-align: center;
+            background-color: black;
+            color: white;
             text-align: center;
             padding-top: 10px;
             padding-bottom: 20px;
             margin-top: 0px;
             margin-bottom: 0px;
-            border: 0px;
+        border: solid 3px white;
+        }
         
+                .nav3:hover {
+                    background-color: white;
+                    border: solid 3px black;
+                    color: black;
         }
         
         .nav4 {
-            background-color: rgb(152, 32, 185);
+        text-align: center;
+            background-color: black;
+            color: white;
             text-align: center;
             padding-top: 10px;
             padding-bottom: 20px;
             margin-top: 0px;
             margin-bottom: 0px;
-            border: 0px;
+        border: solid 3px white;
+        }
+        
+        .nav4:hover {
+            background-color: white;
+            border: solid 3px black;
+            color: black;
         }
         
         .nav5 {
-            background-color: rgb(225, 144, 5);
+        text-align: center;
+            background-color: black;
+            color: white;
             text-align: center;
             padding-top: 10px;
             padding-bottom: 20px;
             margin-top: 0px;
             margin-bottom: 0px;
-            border: 0px;
+        border: solid 3px white;
         }
         
+        .nav5:hover {
+            background-color: white;
+            border: solid 3px black;
+            color: black;
+        }
+
         #parallelogram {
             width: 150px;
             height: 100px;
