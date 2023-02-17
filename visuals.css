@@ -1,21 +1,21 @@
-* {
+body {
     background-color: teal;
+    position: absolute;
 
 }
 
 .head {
-    background-color: black;
         margin-top: 0px;
         margin-bottom: 0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
+        width: 100%;
     }
     
-    .nav1 {
+        .nav {
         text-align: center;
-            background-color: black;
+        background-color: black;
         text-decoration: wavy;
-        
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 20px;
@@ -24,127 +24,43 @@
             color: white;
     }
     
-    .nav1:hover {
+        .nav:hover {
         background-color: white;
             border: solid 3px black;
             color: black;
     }
-    
 
-    .nav2 {
-        text-align: center;
-            background-color: black;
-            color: white;
-        text-align: center;
-        padding-top: 20px;
-            padding-bottom: 20px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-        border: solid 3px white;
-        }
-        
-        .nav2:hover {
-            background-color: white;
-                border: solid 3px black;
-                color: black;
-        }
-        
-        .nav3 {
-        text-align: center;
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding-top: 10px;
-            padding-bottom: 20px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-        border: solid 3px white;
-        }
-        
-                .nav3:hover {
-                    background-color: white;
-                    border: solid 3px black;
-                    color: black;
-        }
-        
-        .nav4 {
-        text-align: center;
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding-top: 10px;
-            padding-bottom: 20px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-        border: solid 3px white;
-        }
-        
-        .nav4:hover {
-            background-color: white;
-            border: solid 3px black;
-            color: black;
-        }
-        
-        .nav5 {
-        text-align: center;
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding-top: 10px;
-            padding-bottom: 20px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-        border: solid 3px white;
-        }
-        
-        .nav5:hover {
-            background-color: white;
-            border: solid 3px black;
-            color: black;
+      #sources #projects {
+          border-top: white solid 3px;
+            }
+          #sources {
+         width: 50%;
+                
         }
 
-        #parallelogram {
-            width: 150px;
-            height: 100px;
-            transform: skew(20deg);
-            background: red;
+        #projects{
+            width: 50%;
+            text-align: right;
         }
         
-        #rectangle {
-            width: 150px;
-            height: 1500px;
-            transform: skew(-60deg);
-            background: rgba(252, 201, 23, 0.8);
-            left: -600px;
-            top: 882.77px;
-            position: absolute;
+           .src{
+            background-color: white;
+           }
+
+            
+          #foot {
+         background-color: black;
+         color: white;
+         border: 3px solid white;
         }
-        
-        #rectangle-hover {
-            background-color: blue;
+        .about{
+            width: 50%;
+            text-align: left;
         }
-        
-        
-        #big-rec {
-            width: 2400px;
-            height: 3000px;
-            transform: skew(-75deg);
-            background: rgba(252, 201, 23, 0.8);
-            left: 2000px;
-            top: 730.77px;
-            position: absolute;
+        .projs{
+            width: 50%;
+            text-align: right;
         }
-        
-        #header-subbar {
-            height: 8px;
-            width: 100%;
-            background-color: #FCC917;
-        }
-        
-        #profile-trifoot {
-            width: 90%;
-            height: 10px;
-            border-bottom: 110px solid red;
-            border-left: 400px solid transparent;
-            position: absolute;
+
+
         
