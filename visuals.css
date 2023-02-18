@@ -3,13 +3,16 @@ body {
     position: absolute;
 
 }
-
+* {
+    width: 100%
+}
 .head {
         margin-top: 0px;
         margin-bottom: 0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
         width: 100%;
+        position: fixed;
     }
     
         .nav {
@@ -23,7 +26,7 @@ body {
         border: solid 3px white;
             color: white;
     }
-    
+
         .nav:hover {
         background-color: white;
             border: solid 3px black;
@@ -51,7 +54,8 @@ body {
           #foot {
          background-color: black;
          color: white;
-         border: 3px solid white;
+        border-top: 3px solid white;
+            margin-top: 10px;
         }
         .about{
             width: 50%;
